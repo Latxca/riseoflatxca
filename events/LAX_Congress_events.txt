@@ -1,0 +1,57 @@
+add_namespace = LAX_congress
+
+country_event = {
+	id = LAX_congress.1
+	title = LAX_congress.1.t
+	desc = LAX_congress.1.d
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = LAX_congress.1.a
+		LAX_congress_small_support = yes
+	}
+}
+
+country_event = {
+	id = LAX_congress.2
+	title = LAX_congress.2.t
+	desc = LAX_congress.2.d
+	picture = GFX_report_event_FDR_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = LAX_congress.2.a
+		LAX_congress_medium_support = yes
+	}
+}
+
+country_event = {
+	id = LAX_congress.3
+	title = LAX_congress.3.t
+	desc = LAX_congress.3.d
+	picture = GFX_report_event_journalists_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = LAX_congress.3.a
+		LAX_congress_small_opposition = yes
+	}
+}
+
+country_event = {
+	id = LAX_congress.4
+	title = LAX_congress.4.t
+	desc = LAX_congress.4.d
+	picture = GFX_report_event_parliament_debates
+
+	is_triggered_only = yes
+
+	option = {
+		name = LAX_congress.4.a
+		LAX_congress_medium_opposition = yes
+	}
+}
