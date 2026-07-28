@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		LAX_congressional_tradition = {
+			picture = generic_democratic_drift_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.05
+			}
+		}
+
+		LAX_presidential_dominance = {
+			picture = generic_authoritarian_drift_drift_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = 0.10
+			}
+		}
+
+		LAX_revolutionary_zeal = {
+			picture = generic_communist_drift_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.10
+				army_org_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+LAX_NAVY_NAMES = {
+	# Names for Capital Ships / Cruisers
+	ordered = {
+		"LNS Latxca" "LNS United Parishes" "LNS New Orleans" "LNS Mississippi"
+		"LNS Louisiana" "LNS Alabama" "LNS Florida" "LNS Georgia"
+		"LNS South Carolina" "LNS Tennessee" "LNS Kentucky" "LNS Arkansas"
+	}
+
+	# Names for Destroyers
+	fallback_name = "LNS Delta Destroyer %d"
+}
+
+LAX_SUB_NAMES = {
+	# Names for Submarines
+	ordered = {
+		"LNS Caiman" "LNS Alligator" "LNS Gator" "LNS Bayou"
+		"LNS Swamp Fox" "LNS Cottonmouth" "LNS Copperhead"
+	}
+
+	fallback_name = "LNS Submersible %d"
+}

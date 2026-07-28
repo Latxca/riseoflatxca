@@ -1,0 +1,17 @@
+graphical_culture = western_european_gfx
+graphical_culture_2d = western_european_gfx_2d
+
+color = rgb { 255 140 0 }
+
+ship_names = LAX_NAVY_NAMES
+sub_names = LAX_SUB_NAMES
+
+division_namelists = {
+	LAX_INF_01
+	LAX_CAV_01
+	LAX_MAR_01
+	LAX_ARM_01
+	LAX_MOT_01
+	LAX_ART_01
+	LAX_MNT_01
+}

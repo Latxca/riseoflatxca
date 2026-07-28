@@ -1,0 +1,20 @@
+air_wings = {
+	wing = {
+		name = "1st Parish Air Squadron"
+		location = 371
+		aircraft = { fighter_equipment_0 = 12 }
+		crew_size = 1
+	}
+	wing = {
+		name = "2nd Parish Air Squadron"
+		location = 370
+		aircraft = { fighter_equipment_0 = 10 }
+		crew_size = 1
+	}
+	wing = {
+		name = "3rd Parish Air Squadron"
+		location = 367
+		aircraft = { fighter_equipment_0 = 8 }
+		crew_size = 1
+	}
+}
